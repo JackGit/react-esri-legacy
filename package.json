@@ -1,0 +1,31 @@
+{
+  "name": "react-esri-legacy",
+  "version": "0.0.1",
+  "description": "```jsx <Map onClick={}>   <GraphicLayer name=\"glayer1\" />   <GraphicDrawTool targetGraphicLayer=\"glayer1\" />   <GraphicEditTool targetGraphicLayer=\"glayer2\" tools={[]} options={{}} activate={} /> </Map> ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackgit/react-esri-legacy.git"
+  },
+  "keywords": [
+    "react",
+    "esri",
+    "arcmap",
+    "dojo"
+  ],
+  "author": "ygjack414@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackgit/react-esri-legacy/issues"
+  },
+  "homepage": "https://github.com/jackgit/react-esri-legacy#readme",
+  "dependencies": {
+    "esri-loader-react": "^2.0.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
