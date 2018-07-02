@@ -15,7 +15,7 @@ const ModuleLoader = ({
   const readyHandler = ({ loadedModules, containerNode }) => onReady(containerNode, getModulesMapping(modules, loadedModules))
   return (
     <EsriLoaderReact
-      options={{ url: arcgisJsApi }}
+      options={{ url: arcgisJsApiPath }}
       modulesToLoad={getModulePaths(modules, arcgisStaticPath)}
       onReady={readyHandler}
       {...restProps}
@@ -27,7 +27,7 @@ const ModuleLoader = ({
 
 ModuleLoader.propTypes = {
   modules: PropTypes.array,   // [{ name, path }]
-  arcgisJsApi: PropTypes.string,
+  arcgisJsApiPath: PropTypes.string,
   arcgisStaticPath: PropTypes.string,
   onReady: PropTypes.func,    // (containerNode, modulesMapping) => {}
   // ...other EsriLoaderReact props
