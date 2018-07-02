@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import EsriLoaderReact from 'esri-loader-react'
 import { noop } from '@/utils/func'
